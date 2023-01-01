@@ -1,0 +1,1557 @@
+{
+  "facets": [
+    {
+      "id": "default",
+      "label": "default",
+      "description": "The default facet",
+      "colorKey": "86ACEB",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Item's metadata.",
+          "isRequired": true,
+          "colorKey": "F8C0C0",
+          "groupKey": "general",
+          "sortKey": "metadata"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "name": "categories",
+          "description": "Item's categories.",
+          "isRequired": true,
+          "colorKey": "98F8F8",
+          "groupKey": "general",
+          "sortKey": "categories"
+        },
+        {
+          "typeId": "it.vedph.historical-date",
+          "name": "date",
+          "description": "Historical date.",
+          "isRequired": false,
+          "colorKey": "F898F8",
+          "groupKey": "general",
+          "sortKey": "date"
+        },
+        {
+          "typeId": "it.vedph.chronotopes",
+          "name": "chronotopes",
+          "description": "Date/time indications.",
+          "isRequired": false,
+          "colorKey": "F887C8",
+          "groupKey": "general",
+          "sortKey": "chronotopes"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "name": "events",
+          "description": "Historical events.",
+          "isRequired": false,
+          "colorKey": "C898C8",
+          "groupKey": "general",
+          "sortKey": "events"
+        },
+        {
+          "typeId": "it.vedph.keywords",
+          "name": "keywords",
+          "description": "Item's keywords.",
+          "colorKey": "99CCFF",
+          "groupKey": "general",
+          "sortKey": "keywords"
+        },
+        {
+          "typeId": "it.vedph.index-keywords",
+          "name": "index keywords",
+          "description": "Item's index keywords.",
+          "colorKey": "588BBF",
+          "groupKey": "general",
+          "sortKey": "keywords-x"
+        },
+        {
+          "typeId": "it.vedph.names",
+          "name": "names",
+          "description": "Proper name(s).",
+          "colorKey": "C0F0F8",
+          "groupKey": "general",
+          "sortKey": "names"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "B0A0F8",
+          "groupKey": "general",
+          "sortKey": "note"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "Comment.",
+          "colorKey": "B2E0AA",
+          "groupKey": "general",
+          "sortKey": "comment"
+        },
+        {
+          "typeId": "it.vedph.external-ids",
+          "name": "external IDs",
+          "description": "External identifiers.",
+          "colorKey": "BEE0CA",
+          "groupKey": "references",
+          "sortKey": "identifiers"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
+          "groupKey": "references",
+          "sortKey": "references"
+        },
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "20B2AA",
+          "groupKey": "references",
+          "sortKey": "bibliography"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Pin-based links.",
+          "colorKey": "A0C0F8",
+          "groupKey": "general",
+          "sortKey": "links"
+        },
+        {
+          "typeId": "it.vedph.epigraphy.support",
+          "name": "support",
+          "description": "Epigraphic support.",
+          "colorKey": "31AB54",
+          "groupKey": "inscriptions",
+          "sortKey": "epi-support"
+        },
+        {
+          "typeId": "it.vedph.epigraphy.writing",
+          "name": "writing",
+          "description": "Epigraphic writing.",
+          "colorKey": "31AB54",
+          "groupKey": "inscriptions",
+          "sortKey": "epi-writing"
+        },
+        {
+          "typeId": "it.vedph.geo.asserted-locations",
+          "name": "locations",
+          "description": "Locations.",
+          "colorKey": "31AB54",
+          "groupKey": "geography",
+          "sortKey": "locations"
+        },
+        {
+          "typeId": "it.vedph.geo.asserted-toponyms",
+          "name": "toponyms",
+          "description": "Toponyms.",
+          "colorKey": "31AB54",
+          "groupKey": "geography",
+          "sortKey": "toponyms"
+        },
+        {
+          "typeId": "it.vedph.token-text",
+          "roleId": "base-text",
+          "name": "text",
+          "description": "Item's token-based text.",
+          "colorKey": "31AB54",
+          "groupKey": "text",
+          "sortKey": "text"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.comment",
+          "name": "comments",
+          "description": "Comments on text.",
+          "colorKey": "F8D040",
+          "groupKey": "text",
+          "sortKey": "text-comments"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.chronology",
+          "name": "chronology",
+          "description": "Chronological indication.",
+          "colorKey": "DDA0DD",
+          "groupKey": "text",
+          "sortKey": "text-chronology"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.apparatus",
+          "name": "apparatus",
+          "description": "Critical apparatus.",
+          "colorKey": "D4E0A4",
+          "groupKey": "text",
+          "sortKey": "text-apparatus"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.orthography",
+          "name": "orthography",
+          "description": "Standard orthography.",
+          "colorKey": "E0D4A4",
+          "groupKey": "text",
+          "sortKey": "text-apparatus"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "id": 1,
+      "label": "complete",
+      "description": "The item is complete.",
+      "colorKey": "F0B880"
+    },
+    {
+      "id": 2,
+      "label": "revised",
+      "description": "The item has been revised.",
+      "colorKey": "60CF60"
+    }
+  ],
+  "index": {
+    "writer": {
+      "id": "item-index-writer.mysql"
+    },
+    "reader": {
+      "id": "item-index-reader.mysql"
+    }
+  },
+  "graph": {
+    "repository": {
+      "id": "graph-repository.sql-my"
+    }
+  },
+  "browsers": [
+    {
+      "id": "it.vedph.item-browser.mongo.hierarchy"
+    }
+  ],
+  "thesauri": [
+    {
+      "id": "model-types@en",
+      "entries": [
+        {
+          "id": "it.vedph.metadata",
+          "value": "metadata"
+        },
+        {
+          "id": "it.vedph.categories",
+          "value": "categories"
+        },
+        {
+          "id": "it.vedph.external-ids",
+          "value": "external IDs"
+        },
+        {
+          "id": "it.vedph.historical-date",
+          "value": "date"
+        },
+        {
+          "id": "it.vedph.chronotopes",
+          "value": "chronotopes"
+        },
+        {
+          "id": "it.vedph.historical-events",
+          "value": "events"
+        },
+        {
+          "id": "it.vedph.keywords",
+          "value": "keywords"
+        },
+        {
+          "id": "it.vedph.index-keywords",
+          "value": "index keywords"
+        },
+        {
+          "id": "it.vedph.names",
+          "value": "names"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "note"
+        },
+        {
+          "id": "it.vedph.pin-links",
+          "value": "links"
+        },
+        {
+          "id": "it.vedph.comment",
+          "value": "comment"
+        },
+        {
+          "id": "it.vedph.doc-references",
+          "value": "references"
+        },
+        {
+          "id": "it.vedph.bibliography",
+          "value": "bibliography"
+        },
+        {
+          "id": "it.vedph.epigraphy.support",
+          "value": "epi support"
+        },
+        {
+          "id": "it.vedph.epigraphy.writing",
+          "value": "epi writing"
+        },
+        {
+          "id": "it.vedph.geo.asserted-locations",
+          "value": "locations"
+        },
+        {
+          "id": "it.vedph.geo.asserted-toponyms",
+          "value": "toponyms"
+        },
+        {
+          "id": "it.vedph.token-text",
+          "value": "text"
+        },
+        {
+          "id": "it.vedph.token-text-layer",
+          "value": "text layer"
+        },
+        {
+          "id": "fr.it.vedph.apparatus",
+          "value": "apparatus fr."
+        },
+        {
+          "id": "fr.it.vedph.chronology",
+          "value": "chronology fr."
+        },
+        {
+          "id": "fr.it.vedph.comment",
+          "value": "comment fr."
+        },
+        {
+          "id": "fr.it.vedph.orthography",
+          "value": "orthography fr."
+        }
+      ]
+    },
+    {
+      "id": "categories@en",
+      "entries": [
+        {
+          "id": "architecture",
+          "value": "architecture"
+        },
+        {
+          "id": "geography",
+          "value": "geography"
+        },
+        {
+          "id": "geography.cities",
+          "value": "geography: cities"
+        },
+        {
+          "id": "geography.regions",
+          "value": "geography: regions"
+        },
+        {
+          "id": "ethnography",
+          "value": "ethnography"
+        },
+        {
+          "id": "ethnography.death",
+          "value": "ethnography: death"
+        },
+        {
+          "id": "ethnography.food",
+          "value": "ethnography: food"
+        },
+        {
+          "id": "ethnography.peoples",
+          "value": "ethnography: peoples"
+        },
+        {
+          "id": "ethnography.religion",
+          "value": "ethnography: religion"
+        },
+        {
+          "id": "ethnography.religion.deities",
+          "value": "ethnography: religion deities"
+        },
+        {
+          "id": "ethnography.religion.rites",
+          "value": "ethnography: religion rites"
+        },
+        {
+          "id": "history",
+          "value": "history"
+        },
+        {
+          "id": "language",
+          "value": "language"
+        },
+        {
+          "id": "language.phonology",
+          "value": "language: phonology"
+        },
+        {
+          "id": "language.morphology",
+          "value": "language: morphology"
+        },
+        {
+          "id": "language.syntax",
+          "value": "language: syntax"
+        },
+        {
+          "id": "literature",
+          "value": "literature"
+        }
+      ]
+    },
+    {
+      "id": "comment-categories@en",
+      "targetId": "categories"
+    },
+    {
+      "id": "languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        },
+        {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "gre",
+          "value": "Modern Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
+        }
+      ]
+    },
+    {
+      "id": "name-piece-types@en",
+      "entries": [
+        {
+          "id": "first",
+          "value": "first"
+        },
+        {
+          "id": "last",
+          "value": "last"
+        }
+      ]
+    },
+    {
+      "id": "name-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "bibliography-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "bibliography-types@en",
+      "entries": [
+        {
+          "id": "book",
+          "value": "book"
+        },
+        {
+          "id": "article-j",
+          "value": "journal article"
+        },
+        {
+          "id": "article-b",
+          "value": "book article"
+        },
+        {
+          "id": "article-p",
+          "value": "proceedings article"
+        },
+        {
+          "id": "review",
+          "value": "review"
+        },
+        {
+          "id": "ebook",
+          "value": "e-book"
+        },
+        {
+          "id": "site",
+          "value": "web site"
+        },
+        {
+          "id": "magazine",
+          "value": "magazine"
+        },
+        {
+          "id": "newspaper",
+          "value": "newspaper"
+        },
+        {
+          "id": "tweet",
+          "value": "tweet"
+        }
+      ]
+    },
+    {
+      "id": "bibliography-author-roles@en",
+      "entries": [
+        {
+          "id": "ed",
+          "value": "editor"
+        },
+        {
+          "id": "tr",
+          "value": "translator"
+        },
+        {
+          "id": "org",
+          "value": "organization"
+        }
+      ]
+    },
+    {
+      "id": "chronology-tags@en",
+      "entries": [
+        {
+          "id": "bat",
+          "value": "battle"
+        },
+        {
+          "id": "prst",
+          "value": "priesthood"
+        },
+        {
+          "id": "cos",
+          "value": "consulship"
+        }
+      ]
+    },
+    {
+      "id": "event-types@en",
+      "entries": [
+        {
+          "id": "person.birth",
+          "value": "nascita"
+        },
+        {
+          "id": "person.family",
+          "value": "famiglia"
+        },
+        {
+          "id": "person.death",
+          "value": "morte"
+        },
+        {
+          "id": "person.marriage",
+          "value": "matrimonio"
+        },
+        {
+          "id": "person.job",
+          "value": "professione"
+        },
+        {
+          "id": "person.title",
+          "value": "titolo"
+        },
+        {
+          "id": "person.appointment",
+          "value": "nomina"
+        },
+        {
+          "id": "person.group",
+          "value": "gruppo"
+        },
+        {
+          "id": "person.meeting",
+          "value": "incontro"
+        },
+        {
+          "id": "person.travel",
+          "value": "viaggio"
+        },
+        {
+          "id": "person.participation",
+          "value": "partecipazione"
+        },
+        {
+          "id": "person.documented",
+          "value": "attestazione"
+        },
+        {
+          "id": "person.send",
+          "value": "invio"
+        },
+        {
+          "id": "person.reception",
+          "value": "ricezione"
+        },
+        {
+          "id": "person.deliver",
+          "value": "consegna"
+        },
+        {
+          "id": "person.transcription",
+          "value": "trascrizione"
+        },
+        {
+          "id": "person.collection",
+          "value": "raccolta"
+        },
+        {
+          "id": "person.annotation",
+          "value": "postilla"
+        },
+        {
+          "id": "person.writing",
+          "value": "stesura"
+        },
+        {
+          "id": "person.commission",
+          "value": "commissione"
+        },
+        {
+          "id": "person.commissioned",
+          "value": "esecuzione su commissione"
+        },
+        {
+          "id": "person.dedication",
+          "value": "dedica"
+        },
+        {
+          "id": "person.dedicated",
+          "value": "ricezione di dedica"
+        },
+        {
+          "id": "person.possession",
+          "value": "possesso"
+        },
+        {
+          "id": "person.borrowing",
+          "value": "prende in prestito"
+        },
+        {
+          "id": "person.lending",
+          "value": "presta"
+        },
+        {
+          "id": "person.returning",
+          "value": "restituisce"
+        },
+        {
+          "id": "person.obtain-restitution",
+          "value": "ottiene restituzione"
+        },
+        {
+          "id": "person.buying",
+          "value": "acquista"
+        },
+        {
+          "id": "person.selling",
+          "value": "vende"
+        },
+        {
+          "id": "text.send",
+          "value": "invio"
+        },
+        {
+          "id": "text.reception",
+          "value": "ricezione"
+        },
+        {
+          "id": "text.deliver",
+          "value": "consegna"
+        },
+        {
+          "id": "text.transcription",
+          "value": "trascrizione"
+        },
+        {
+          "id": "text.writing",
+          "value": "stesura"
+        },
+        {
+          "id": "text.collection",
+          "value": "raccolta"
+        },
+        {
+          "id": "manuscript.send",
+          "value": "invio"
+        },
+        {
+          "id": "manuscript.reception",
+          "value": "ricezione"
+        },
+        {
+          "id": "manuscript.deliver",
+          "value": "consegna"
+        },
+        {
+          "id": "witness",
+          "value": "testimone"
+        },
+        {
+          "id": "manuscript.editing",
+          "value": "editing"
+        },
+        {
+          "id": "manuscript.commission",
+          "value": "commissione"
+        },
+        {
+          "id": "manuscript.dedication",
+          "value": "dedica"
+        },
+        {
+          "id": "manuscript.possession",
+          "value": "possesso"
+        },
+        {
+          "id": "manuscript.lend",
+          "value": "prestito"
+        },
+        {
+          "id": "manuscript.return",
+          "value": "restituzione"
+        },
+        {
+          "id": "manuscript.buy",
+          "value": "acquisto"
+        },
+        {
+          "id": "manuscript.restore",
+          "value": "restauro"
+        }
+      ]
+    },
+    {
+      "id": "event-relations@en",
+      "entries": [
+        {
+          "id": "person.birth.mother",
+          "value": "madre"
+        },
+        {
+          "id": "person.birth.father",
+          "value": "padre"
+        },
+        {
+          "id": "person.family.son",
+          "value": "figlio"
+        },
+        {
+          "id": "person.family.daughter",
+          "value": "figlia"
+        },
+        {
+          "id": "person.family.mother",
+          "value": "madre"
+        },
+        {
+          "id": "person.family.father",
+          "value": "padre"
+        },
+        {
+          "id": "person.family.brother",
+          "value": "fratello"
+        },
+        {
+          "id": "person.family.sister",
+          "value": "sorella"
+        },
+        {
+          "id": "person.marriage.husband",
+          "value": "marito"
+        },
+        {
+          "id": "person.marriage.wife",
+          "value": "moglie"
+        },
+        {
+          "id": "person.job.pope",
+          "value": "papa"
+        },
+        {
+          "id": "person.job.cardinal",
+          "value": "cardinal"
+        },
+        {
+          "id": "person.job.bishop",
+          "value": "vescovo"
+        },
+        {
+          "id": "person.job.friar",
+          "value": "frate"
+        },
+        {
+          "id": "person.job.prior",
+          "value": "priore"
+        },
+        {
+          "id": "person.job.canon",
+          "value": "canonico"
+        },
+        {
+          "id": "person.job.king",
+          "value": "sovrano"
+        },
+        {
+          "id": "person.job.politician",
+          "value": "uomo politico"
+        },
+        {
+          "id": "person.job.teacher",
+          "value": "maestro"
+        },
+        {
+          "id": "person.job.lecturer",
+          "value": "lettore"
+        },
+        {
+          "id": "person.job.jurist",
+          "value": "giurista"
+        },
+        {
+          "id": "person.job.diplomatic",
+          "value": "diplomatico"
+        },
+        {
+          "id": "person.job.notary",
+          "value": "notaio"
+        },
+        {
+          "id": "person.job.military",
+          "value": "uomo d'armi"
+        },
+        {
+          "id": "person.job.scribe",
+          "value": "copista"
+        },
+        {
+          "id": "person.job.artist",
+          "value": "artista"
+        },
+        {
+          "id": "person.job.musician",
+          "value": "musico"
+        },
+        {
+          "id": "person.job.apprentice",
+          "value": "apprendista"
+        },
+        {
+          "id": "person.job.counsellor",
+          "value": "consigliere"
+        },
+        {
+          "id": "person.job.chancellor",
+          "value": "cancelliere"
+        },
+        {
+          "id": "person.job.secretary",
+          "value": "segretario"
+        },
+        {
+          "id": "person.job.merchant",
+          "value": "mercante"
+        },
+        {
+          "id": "person.job.artisan",
+          "value": "artigiano"
+        },
+        {
+          "id": "person.job.servant",
+          "value": "servo"
+        },
+        {
+          "id": "person.job.emperor",
+          "value": "imperatore"
+        },
+        {
+          "id": "person.job.physician",
+          "value": "medico"
+        },
+        {
+          "id": "person.job.duke",
+          "value": "duca"
+        },
+        {
+          "id": "person.job.earl",
+          "value": "conte"
+        },
+        {
+          "id": "person.job.prince",
+          "value": "principe"
+        },
+        {
+          "id": "person.job.teacher-of",
+          "value": "maestro di"
+        },
+        {
+          "id": "person.job.at-the-service-of",
+          "value": "a servizio di"
+        },
+        {
+          "id": "person.job.protector-of",
+          "value": "protettore di"
+        },
+        {
+          "id": "person.group.member-of",
+          "value": "membro di"
+        },
+        {
+          "id": "person.meeting.met",
+          "value": "persona incontrata"
+        },
+        {
+          "id": "person.meeting.spectator",
+          "value": "spettatore"
+        },
+        {
+          "id": "person.travel.participant",
+          "value": "partecipante"
+        },
+        {
+          "id": "person.participation.participant",
+          "value": "partecipante"
+        },
+        {
+          "id": "person.documented.participant",
+          "value": "partecipante"
+        },
+        {
+          "id": "person.send.sent",
+          "value": "oggetto inviato"
+        },
+        {
+          "id": "person.send.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "person.send.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "person.reception.received",
+          "value": "oggetto ricevuto"
+        },
+        {
+          "id": "person.reception.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "person.reception.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "person.deliver.delivered",
+          "value": "oggetto consegnato"
+        },
+        {
+          "id": "person.deliver.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "person.deliver.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "person.transcription.copy",
+          "value": "copia"
+        },
+        {
+          "id": "person.transcription.text",
+          "value": "testo trascritto"
+        },
+        {
+          "id": "person.collection.copy",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.collection.text",
+          "value": "testo raccolto"
+        },
+        {
+          "id": "person.annotation.annotation",
+          "value": "postilla"
+        },
+        {
+          "id": "person.annotation.ms",
+          "value": "manoscritto postillato"
+        },
+        {
+          "id": "person.annotation.text",
+          "value": "testo postillato"
+        },
+        {
+          "id": "person.writing.text",
+          "value": "testo"
+        },
+        {
+          "id": "person.commission.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.commission.maker",
+          "value": "esecutore"
+        },
+        {
+          "id": "person.commissioned.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.commissioned.client",
+          "value": "committente"
+        },
+        {
+          "id": "person.dedication.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.dedication.recipient",
+          "value": "dedicatario"
+        },
+        {
+          "id": "person.dedicated.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.dedicated.maker",
+          "value": "dedicante"
+        },
+        {
+          "id": "person.possession.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.possession.note",
+          "value": "nota di possesso"
+        },
+        {
+          "id": "person.borrowing.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.borrowing.lender",
+          "value": "presta"
+        },
+        {
+          "id": "person.lending.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.lending.borrower",
+          "value": "prende in prestito"
+        },
+        {
+          "id": "person.returning.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.returning.obtain-restitution",
+          "value": "ottiene restituzione"
+        },
+        {
+          "id": "person.obtain-restitution.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.obtain-restitution.returning",
+          "value": "restituisce"
+        },
+        {
+          "id": "person.buying.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.buying.seller",
+          "value": "venditore"
+        },
+        {
+          "id": "person.selling.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.selling.buyer",
+          "value": "acquirente"
+        },
+        {
+          "id": "text.send.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "text.send.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "text.send.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "text.reception.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "text.reception.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "text.reception.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "text.deliver.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "text.deliver.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "text.deliver.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "text.transcription.copy",
+          "value": "copia"
+        },
+        {
+          "id": "text.transcription.transcriber",
+          "value": "trascrittore"
+        },
+        {
+          "id": "text.writing.author",
+          "value": "autore"
+        },
+        {
+          "id": "text.collection.collector",
+          "value": "raccolta"
+        },
+        {
+          "id": "manuscript.send.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "manuscript.send.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "manuscript.send.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "manuscript.reception.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "manuscript.reception.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "manuscript.reception.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "manuscript.deliver.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "manuscript.deliver.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "manuscript.deliver.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "manuscript.editing.maker",
+          "value": "eseguito da"
+        },
+        {
+          "id": "manuscript.editing.eid",
+          "value": "eid edit"
+        },
+        {
+          "id": "manuscript.commission.client",
+          "value": "committente"
+        },
+        {
+          "id": "manuscript.commission.maker",
+          "value": "esecutore"
+        },
+        {
+          "id": "manuscript.dedication.maker",
+          "value": "dedicante"
+        },
+        {
+          "id": "manuscript.dedication.recipient",
+          "value": "dedicatario"
+        },
+        {
+          "id": "manuscript.possession.owner",
+          "value": "possessore"
+        },
+        {
+          "id": "manuscript.possession.note",
+          "value": "nota di possesso"
+        },
+        {
+          "id": "manuscript.lend.borrower",
+          "value": "prende in prestito"
+        },
+        {
+          "id": "manuscript.lend.lender",
+          "value": "presta"
+        },
+        {
+          "id": "manuscript.return.returned",
+          "value": "restituisce"
+        },
+        {
+          "id": "manuscript.return.return-to",
+          "value": "ottiene restituzione"
+        },
+        {
+          "id": "manuscript.buy.buyer",
+          "value": "acquirente"
+        },
+        {
+          "id": "manuscript.buy.seller",
+          "value": "venditore"
+        },
+        {
+          "id": "manuscript.restore.restorer",
+          "value": "restauratore"
+        }
+      ]
+    },
+    {
+      "id": "orthography-tags@en",
+      "entries": [
+        {
+          "id": "v",
+          "value": "vocoids"
+        },
+        {
+          "id": "v.iotacism",
+          "value": "vocoids: iotacism"
+        },
+        {
+          "id": "v.monop",
+          "value": "vocoids: monophthongization"
+        },
+        {
+          "id": "c",
+          "value": "contoids"
+        },
+        {
+          "id": "c.pls",
+          "value": "contoids: plosives"
+        },
+        {
+          "id": "c.liq",
+          "value": "contoids: liquids"
+        },
+        {
+          "id": "c.liq",
+          "value": "contoids: nasals"
+        },
+        {
+          "id": "c.fri",
+          "value": "contoids: fricatives"
+        }
+      ]
+    },
+    {
+      "id": "apparatus-tags@en",
+      "entries": [
+        {
+          "id": "margin",
+          "value": "margin"
+        },
+        {
+          "id": "inter",
+          "value": "interlinear"
+        }
+      ]
+    },
+    {
+      "id": "apparatus-witnesses.verg-eclo@en",
+      "entries": [
+        {
+          "id": "w1",
+          "value": "Bernensis 172 cum Parisino lat. 7929, olim Floriacensis, saec. IX. [MO B. 12, saec. IX m.]"
+        },
+        {
+          "id": "w2",
+          "value": "correctores vel variae lectiones fere eiusdem aetatis"
+        },
+        {
+          "id": "w3",
+          "value": "Bernensis 165, olim Turonensis [MO B. 10, saec. IX 1/4]"
+        },
+        {
+          "id": "w4",
+          "value": "correctores vel variae lectiones fere eiusdem aetatis"
+        },
+        {
+          "id": "w5",
+          "value": "Bernensis 184 [MO B.13: saec. IX-X]"
+        },
+        {
+          "id": "w6",
+          "value": "correctores vel variae lectiones fere eiusdem aetatis"
+        },
+        {
+          "id": "w7",
+          "value": "Bernensis 255 + 239, in Gallia septentrionali oriundus [MO B. 14, saec. IX 2/3]"
+        },
+        {
+          "id": "w8",
+          "value": "Bernensis 167, origine Autissiodorensis olim creditus (desunt Aen. 12.452-579; 772-952) [MO B.11: saec. IX�]"
+        },
+        {
+          "id": "w9",
+          "value": "Oxoniensis Bodl. Auct. F. 2.8, ante annum fere 850 Parisiis exaratus in coenobio S. Germani [MO B. 155, saec. IX�]"
+        },
+        {
+          "id": "w10",
+          "value": "Valentianensis 407 (389), olim S. Amandi Elnonensis sive in Pabula [MO B.231: saec IX�]"
+        }
+      ]
+    },
+    {
+      "id": "apparatus-authors.verg-eclo@en",
+      "entries": [
+        {
+          "id": "author1",
+          "value": "Aldhelmus (saec. VII), Opera , ed. R. Ehwald, Berolini 1913-1919."
+        },
+        {
+          "id": "author2",
+          "value": "Anthologia latina (codex Salmasianus saec. VIII), ed. A. Riese, Lipsiae 1894-1906"
+        },
+        {
+          "id": "author3",
+          "value": "Ars anonyma bernensis = GLK VIII (1870), pp. 62-142."
+        },
+        {
+          "id": "author4",
+          "value": "Arusianus Messius (saec. IV ex.), Opus grammaticum sc. Exempla elocutionum ex Vergilio Sallustio Terentio Cicerone digesta per litteras alphabeti = GLK VII (1880), pp. 449-514."
+        },
+        {
+          "id": "author5",
+          "value": "Beda Presbyterus (VII saec.), Liber de arte metrica et de orthographia = GLK VII (1880), pp. 217-294."
+        },
+        {
+          "id": "author6",
+          "value": "Brevis expositio Vergilii georgicorum, ed. H. Hagen, Lipsiae 1902, pp. 193-320."
+        },
+        {
+          "id": "author7",
+          "value": "Flavius Sosipater Charisius (saec. IV ex.), Artis grammaticae libri V = GLK I (1857), pp. 1-296."
+        },
+        {
+          "id": "author8",
+          "value": "Cledonius (saec. V), Ars grammatica = GLK V (1868), pp. 9-79."
+        },
+        {
+          "id": "author9",
+          "value": "Commentum einsidlense in Donati artem (minorem et maiorem) = GLK VIII (1870), pp. 202-274."
+        },
+        {
+          "id": "author10",
+          "value": "Marci Annaei Lucani commenta Bernensia, ed. H. Usener, Lipsiae 1869."
+        }
+      ]
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "users": [ "zeus" ],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.metadata"
+      },
+      {
+        "id": "seed.it.vedph.categories",
+        "options": {
+          "maxCategoriesPerItem": 3,
+          "categories": [
+            "language.phonology",
+            "language.morphology",
+            "language.syntax",
+            "literature",
+            "geography"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.historical-date"
+      },
+      {
+        "id": "seed.it.vedph.chronotopes"
+      },
+      {
+        "id": "seed.it.vedph.pin-links"
+      },
+      {
+        "id": "seed.it.vedph.historical-events"
+      },
+      {
+        "id": "seed.it.vedph.keywords",
+        "options": {
+          "languages": [
+            "eng",
+            "deu",
+            "ita",
+            "fra",
+            "spa"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.index-keywords",
+        "options": {
+          "indexIds": [
+            "persons",
+            "places"
+          ],
+          "languages": [
+            "eng",
+            "deu",
+            "ita",
+            "fra",
+            "spa"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.doc-references"
+      },
+      {
+        "id": "seed.it.vedph.bibliography",
+        "options": {
+          "authors": [
+            "Doe,Jane",
+            "Doherty,Charles",
+            "Orwell,William",
+            "Sampson,James",
+            "Voss,Francis"
+          ],
+          "journals": [
+            "AJPh",
+            "CJ",
+            "CPh",
+            "CQ",
+            "IF"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.external-ids"
+      },
+      {
+        "id": "seed.it.vedph.names"
+      },
+      {
+        "id": "seed.it.vedph.note",
+        "options": {
+          "tags": [
+            "language",
+            "history",
+            "geography"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.comment",
+        "options": {
+          "languages": [ "eng", "ita" ],
+          "categories": [ "language.phonology", "language.syntax", "history" ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.support"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.writing"
+      },
+      {
+        "id": "seed.it.vedph.geo.asserted-locations"
+      },
+      {
+        "id": "seed.it.vedph.geo.asserted-toponyms"
+      },
+      {
+        "id": "seed.it.vedph.token-text"
+      },
+      {
+        "id": "seed.it.vedph.token-text-layer",
+        "options": {
+          "maxFragmentCount": 3
+        }
+      }
+    ],
+    "fragmentSeeders": [
+      {
+        "id": "seed.fr.it.vedph.comment",
+        "options": {
+          "languages": [ "eng", "ita" ],
+          "categories": [ "language.phonology", "language.syntax", "history" ]
+        }
+      },
+      {
+        "id": "seed.fr.it.vedph.chronology",
+        "options": {
+          "tags": [
+            "bat",
+            "prst",
+            "cos"
+          ]
+        }
+      },
+      {
+        "id": "seed.fr.it.vedph.apparatus"
+      },
+      {
+        "id": "seed.fr.it.vedph.orthography",
+        "options": {
+          "tags": [
+            "ph.c.occl.",
+            "ph.c.liq.",
+            "ph.c.nas."
+          ]
+        }
+      }
+    ]
+  }
+}
