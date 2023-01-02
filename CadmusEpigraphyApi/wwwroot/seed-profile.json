@@ -341,78 +341,788 @@
       "id": "categories@en",
       "entries": [
         {
-          "id": "architecture",
-          "value": "architecture"
+          "id": "christian-383",
+          "value": "christian"
         },
         {
-          "id": "geography",
-          "value": "geography"
+          "id": "decree-384",
+          "value": "decree"
         },
         {
-          "id": "geography.cities",
-          "value": "geography: cities"
+          "id": "doc-357",
+          "value": "document"
         },
         {
-          "id": "geography.regions",
-          "value": "geography: regions"
+          "id": "graffiti-127",
+          "value": "graffiti"
         },
         {
-          "id": "ethnography",
-          "value": "ethnography"
+          "id": "honorific-69",
+          "value": "honorific"
         },
         {
-          "id": "ethnography.death",
-          "value": "ethnography: death"
+          "id": "instrumentum-136",
+          "value": "instrumentum"
         },
         {
-          "id": "ethnography.food",
-          "value": "ethnography: food"
+          "id": "funerary-92",
+          "value": "funerary"
         },
         {
-          "id": "ethnography.peoples",
-          "value": "ethnography: peoples"
+          "id": "dedication-88",
+          "value": "dedication"
         },
         {
-          "id": "ethnography.religion",
-          "value": "ethnography: religion"
+          "id": "building-86",
+          "value": "building"
         },
         {
-          "id": "ethnography.religion.deities",
-          "value": "ethnography: religion deities"
+          "id": "defixio-76",
+          "value": "defixio"
         },
         {
-          "id": "ethnography.religion.rites",
-          "value": "ethnography: religion rites"
+          "id": "milestone-102",
+          "value": "milestone"
         },
         {
-          "id": "history",
-          "value": "history"
+          "id": "seat-111",
+          "value": "seat-inscription"
         },
         {
-          "id": "language",
-          "value": "language"
-        },
-        {
-          "id": "language.phonology",
-          "value": "language: phonology"
-        },
-        {
-          "id": "language.morphology",
-          "value": "language: morphology"
-        },
-        {
-          "id": "language.syntax",
-          "value": "language: syntax"
-        },
-        {
-          "id": "literature",
-          "value": "literature"
+          "id": "-",
+          "value": "---"
         }
       ]
     },
     {
       "id": "comment-categories@en",
-      "targetId": "categories"
+      "entries": [
+        {
+          "id": "p.-",
+          "value": "phonology"
+        },
+        {
+          "id": "grc.p.-",
+          "value": "phonology: Greek"
+        },
+        {
+          "id": "grc.p.itacism",
+          "value": "Greek: phonology: itacism"
+        },
+        {
+          "id": "grc.p.monophth.-",
+          "value": "Greek: phonology: monophthongisation"
+        },
+        {
+          "id": "grc.p.monophth.ai",
+          "value": "Greek: phonology: monophthongisation: AI"
+        },
+        {
+          "id": "grc.p.fric",
+          "value": "Greek: phonology: fricativisation"
+        },
+        {
+          "id": "lat.p.-",
+          "value": "phonology: Latin"
+        },
+        {
+          "id": "lat.p.fric",
+          "value": "Latin: phonology: fricativisation"
+        },
+        {
+          "id": "lat.p.qt",
+          "value": "Latin: phonology: quantity"
+        },
+        {
+          "id": "lat.p.epsilon-i",
+          "value": "Latin: phonology: epsilon=i"
+        },
+        {
+          "id": "lat.p.omicron-u",
+          "value": "Latin: phonology: omicron=u"
+        },
+        {
+          "id": "grc.dor.-",
+          "value": "Greek: Doric"
+        },
+        {
+          "id": "grc.dor.a-h",
+          "value": "Greek: Doric: A=H"
+        },
+        {
+          "id": "grc.dor.sev",
+          "value": "Greek: Doric: severior"
+        },
+        {
+          "id": "grc.dor.gen-masc-a",
+          "value": "Greek: Doric: gen-masc-a"
+        },
+        {
+          "id": "grc.dor.gen-ios",
+          "value": "Greek: Doric: gen-ios"
+        },
+        {
+          "id": "grc.dor.gen-eos",
+          "value": "Greek: Doric: gen-eos"
+        },
+        {
+          "id": "grc.dor.eu-eo",
+          "value": "Greek: Doric: eu=eo"
+        },
+        {
+          "id": "grc.dor.nom-fem-a",
+          "value": "Greek: Doric: nom-fem-a"
+        },
+        {
+          "id": "grc.dor.gen-fem-as",
+          "value": "Greek: Doric: gen-fem-as"
+        },
+        {
+          "id": "lan-con.-",
+          "value": "language-contact"
+        },
+        {
+          "id": "lan-con.grc.-",
+          "value": "language-contact: Greek"
+        },
+        {
+          "id": "lan-con.grc.trf.-",
+          "value": "language-contact: Greek: transfer"
+        },
+        {
+          "id": "lan-con.grc.trf.rom-names.-",
+          "value": "language-contact: Greek: transfer: Roman-names"
+        },
+        {
+          "id": "lan-con.grc.trf.rom-names.fem-a",
+          "value": "language-contact: Greek: transfer: Roman-names: fem-a"
+        },
+        {
+          "id": "lan-con.grc.trf.rom-names.masc-a",
+          "value": "language-contact: Greek: transfer: Roman-names: masc-a"
+        },
+        {
+          "id": "morph.-",
+          "value": "morphology"
+        },
+        {
+          "id": "morph.grc.-",
+          "value": "morphology: Greek"
+        },
+        {
+          "id": "morph.grc.rom-names-is",
+          "value": "morphology: Greek: Roman-names-is"
+        },
+        {
+          "id": "lan-con.grc.calq.-",
+          "value": "language-contact: Greek: calque"
+        },
+        {
+          "id": "lan-con.grc.trf.epi-conv.-",
+          "value": "language-contact: Greek: transfer: epigraphic-conventions"
+        },
+        {
+          "id": "lan-con.grc.trf.epi-conv.abbr",
+          "value": "language-contact: Greek: transfer: epigraphic-conventions: abbreviations"
+        },
+        {
+          "id": "lan-con.grc.transl.-",
+          "value": "language-contact: Greek: translation"
+        },
+        {
+          "id": "lan-con.grc.transl.form.-",
+          "value": "language-contact: Greek: translation: formula"
+        },
+        {
+          "id": "lan-con.grc.interf.-",
+          "value": "language-contact: Greek: interference"
+        },
+        {
+          "id": "lan-con.grc.interf.y-o",
+          "value": "language-contact: Greek: interference: Y=O"
+        },
+        {
+          "id": "lan-con.lat.-",
+          "value": "language-contact: Latin:"
+        },
+        {
+          "id": "lan-con.lat.calq.-",
+          "value": "language-contact: Latin: calque"
+        },
+        {
+          "id": "lan-con.lat.transl.-",
+          "value": "language-contact: Latin: translation"
+        },
+        {
+          "id": "lan-con.lat.transl.form.-",
+          "value": "language-contact: Latin: translation: formula"
+        },
+        {
+          "id": "lan-con.lat.interf.-",
+          "value": "language-contact: Latin: interference"
+        }
+      ]
+    },
+    {
+      "id": "decorated-count-ids@en",
+      "entries": [
+        {
+          "id": "ln",
+          "value": "lines"
+        },
+        {
+          "id": "col",
+          "value": "columns"
+        }
+      ]
+    },
+    {
+      "id": "epi-ligature-types@en",
+      "entries": [
+        {
+          "id": "joint",
+          "value": "joint"
+        },
+        {
+          "id": "inversion",
+          "value": "inversion"
+        },
+        {
+          "id": "overlap",
+          "value": "overlap"
+        },
+        {
+          "id": "replacement",
+          "value": "replacement"
+        },
+        {
+          "id": "graft",
+          "value": "graft"
+        },
+        {
+          "id": "inclusion",
+          "value": "inclusion"
+        },
+        {
+          "id": "connection",
+          "value": "connection"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-functions@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "home",
+          "value": "home"
+        },
+        {
+          "id": "church",
+          "value": "church"
+        },
+        {
+          "id": "cloister",
+          "value": "cloister"
+        },
+        {
+          "id": "condominium",
+          "value": "condominium"
+        },
+        {
+          "id": "colannade",
+          "value": "colonnade"
+        },
+        {
+          "id": "convent",
+          "value": "convent"
+        },
+        {
+          "id": "warehouse",
+          "value": "warehouse"
+        },
+        {
+          "id": "palace",
+          "value": "palace"
+        },
+        {
+          "id": "well",
+          "value": "well"
+        },
+        {
+          "id": "prison",
+          "value": "prison"
+        },
+        {
+          "id": "street",
+          "value": "street"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-materials@en",
+      "entries": [
+        {
+          "id": "limestone-66",
+          "value": "limestone"
+        },
+        {
+          "id": "volcanic-98",
+          "value": "volcanic"
+        },
+        {
+          "id": "marble-48",
+          "value": "marble"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-object-types@en",
+      "entries": [
+        {
+          "id": "block-189",
+          "value": "block"
+        },
+        {
+          "id": "statue-base-57",
+          "value": "statue-base"
+        },
+        {
+          "id": "slab-260",
+          "value": "slab"
+        },
+        {
+          "id": "urn-78",
+          "value": "urn"
+        },
+        {
+          "id": "altar-30",
+          "value": "slab"
+        },
+        {
+          "id": "curse-tablet-266",
+          "value": "curse-tablet"
+        },
+        {
+          "id": "milestone-89",
+          "value": "milestone"
+        },
+        {
+          "id": "plaque-1483",
+          "value": "plaque"
+        },
+        {
+          "id": "aedicula-1201",
+          "value": "aedicula"
+        },
+        {
+          "id": "column-100",
+          "value": "column"
+        },
+        {
+          "id": "wall-416",
+          "value": "wall"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-states@en",
+      "entries": [
+        {
+          "id": "intact",
+          "value": "intact"
+        },
+        {
+          "id": "damaged",
+          "value": "damaged"
+        },
+        {
+          "id": "fr",
+          "value": "fragmentary"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-types@en",
+      "entries": [
+        {
+          "id": "wall",
+          "value": "wall"
+        },
+        {
+          "id": "column",
+          "value": "column"
+        },
+        {
+          "id": "altar",
+          "value": "altar"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-frame-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "square",
+          "value": "square"
+        },
+        {
+          "id": "rect",
+          "value": "rectangular"
+        },
+        {
+          "id": "oval",
+          "value": "oval"
+        },
+        {
+          "id": "round",
+          "value": "round"
+        },
+        {
+          "id": "heart",
+          "value": "heart"
+        },
+        {
+          "id": "cross",
+          "value": "cross"
+        },
+        {
+          "id": "flag",
+          "value": "flag"
+        },
+        {
+          "id": "cartouche",
+          "value": "cartouche"
+        },
+        {
+          "id": "signboard",
+          "value": "signboard"
+        },
+        {
+          "id": "cloud",
+          "value": "cloud"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-fig-features@en",
+      "entries": [
+        {
+          "id": "a",
+          "value": "alpha"
+        },
+        {
+          "id": "b",
+          "value": "beta"
+        },
+        {
+          "id": "g",
+          "value": "gamma"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-fig-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "ani",
+          "value": "animal"
+        },
+        {
+          "id": "ani.-",
+          "value": "animal"
+        },
+        {
+          "id": "obj",
+          "value": "object"
+        },
+        {
+          "id": "obj.-",
+          "value": "object"
+        },
+        {
+          "id": "obj.flag",
+          "value": "object: flag"
+        },
+        {
+          "id": "obj.coat",
+          "value": "object: coat of arms"
+        },
+        {
+          "id": "obj.armor",
+          "value": "object: armor"
+        },
+        {
+          "id": "obj.weapon",
+          "value": "object: weapon"
+        },
+        {
+          "id": "obj.tool",
+          "value": "object: tool"
+        },
+        {
+          "id": "game",
+          "value": "game"
+        },
+        {
+          "id": "plant",
+          "value": "plant"
+        },
+        {
+          "id": "boat",
+          "value": "boat"
+        },
+        {
+          "id": "geometric",
+          "value": "geometric"
+        },
+        {
+          "id": "landscape",
+          "value": "landscape"
+        },
+        {
+          "id": "architecture",
+          "value": "architectures"
+        },
+        {
+          "id": "sym",
+          "value": "symbol"
+        },
+        {
+          "id": "sym.-",
+          "value": "symbol: heart"
+        },
+        {
+          "id": "sym.cross",
+          "value": "symbol: cross"
+        },
+        {
+          "id": "hum",
+          "value": "human"
+        },
+        {
+          "id": "hum.-",
+          "value": "human figure"
+        },
+        {
+          "id": "hum.bust",
+          "value": "human: bust"
+        },
+        {
+          "id": "hum.face",
+          "value": "human: face"
+        },
+        {
+          "id": "hum.anatomical",
+          "value": "human: anatomical parts"
+        },
+        {
+          "id": "erotic",
+          "value": "erotic"
+        },
+        {
+          "id": "arrow",
+          "value": "arrow"
+        },
+        {
+          "id": "signboard",
+          "value": "signboard"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-metres@en",
+      "entries": [
+        {
+          "id": "hex",
+          "value": "hexameter"
+        },
+        {
+          "id": "3ia",
+          "value": "iambic trimeter"
+        },
+        {
+          "id": "eleg",
+          "value": "elegiac"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-script-features@en",
+      "entries": [
+        {
+          "id": "upper",
+          "value": "uppercase"
+        },
+        {
+          "id": "lower",
+          "value": "lowercase"
+        },
+        {
+          "id": "abbr",
+          "value": "abbreviation"
+        },
+        {
+          "id": "ligatures",
+          "value": "ligatures"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-languages@en",
+      "entries": [
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-systems@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "latn",
+          "value": "Latin"
+        },
+        {
+          "id": "grek",
+          "value": "Greek"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-techniques@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "charcoal",
+          "value": "charcoal"
+        },
+        {
+          "id": "candlesmoke",
+          "value": "candlesmoke"
+        },
+        {
+          "id": "graffiti",
+          "value": "graffiti"
+        },
+        {
+          "id": "graphite",
+          "value": "graphite"
+        },
+        {
+          "id": "ink",
+          "value": "ink"
+        },
+        {
+          "id": "punch",
+          "value": "punch"
+        },
+        {
+          "id": "paint",
+          "value": "paint"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-tools@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "charcoal",
+          "value": "charcoal"
+        },
+        {
+          "id": "nail",
+          "value": "nail"
+        },
+        {
+          "id": "gradine",
+          "value": "gradine"
+        },
+        {
+          "id": "blade",
+          "value": "blade"
+        },
+        {
+          "id": "marker",
+          "value": "marker"
+        },
+        {
+          "id": "pen",
+          "value": "pen"
+        },
+        {
+          "id": "brush",
+          "value": "brush"
+        },
+        {
+          "id": "stencil",
+          "value": "stencil"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "upper",
+          "value": "uppercase"
+        },
+        {
+          "id": "lower",
+          "value": "lowercase"
+        },
+        {
+          "id": "italic",
+          "value": "italic"
+        }
+      ]
     },
     {
       "id": "languages@en",
@@ -1283,6 +1993,23 @@
         {
           "id": "c.fri",
           "value": "contoids: fricatives"
+        }
+      ]
+    },
+    {
+      "id": "physical-size-units@en",
+      "entries": [
+        {
+          "id": "cm",
+          "value": "cm"
+        },
+        {
+          "id": "mt",
+          "value": "mt"
+        },
+        {
+          "id": "mm",
+          "value": "mm"
         }
       ]
     },

@@ -5,7 +5,7 @@ using Cadmus.Seed.Philology.Parts;
 using Fusi.Microsoft.Extensions.Configuration.InMemoryJson;
 using SimpleInjector;
 using System.Reflection;
-using Cadmus.Epigraphy.Parts;
+using Cadmus.Seed.Epigraphy.Parts;
 using Cadmus.Seed.Geo.Parts;
 
 namespace CadmusEpigraphyApi.Services;
@@ -30,7 +30,7 @@ public sealed class EpigraphyPartSeederFactoryProvider : IPartSeederFactoryProvi
             // Cadmus.Seed.Philology.Parts
             typeof(ApparatusLayerFragmentSeeder).Assembly,
             // Cadmus.Seed.Epigraphy.Parts
-            typeof(EpiSupportPart).Assembly,
+            typeof(EpiSupportPartSeeder).Assembly,
             // Cadmus.Seed.Geo.Parts
             typeof(AssertedLocationsPartSeeder).Assembly
         };
