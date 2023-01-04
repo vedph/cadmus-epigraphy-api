@@ -7,22 +7,72 @@
       "colorKey": "86ACEB",
       "partDefinitions": [
         {
+          "typeId": "it.vedph.external-ids",
+          "name": "external IDs",
+          "description": "External identifiers.",
+          "isRequired": true,
+          "colorKey": "2F4F4F",
+          "groupKey": "classification",
+          "sortKey": "a"
+        },
+        {
           "typeId": "it.vedph.metadata",
           "name": "metadata",
-          "description": "Item's metadata.",
-          "isRequired": true,
-          "colorKey": "F8C0C0",
-          "groupKey": "general",
-          "sortKey": "metadata"
+          "description": "Miscellaneous metadata.",
+          "colorKey": "8B4513",
+          "groupKey": "classification",
+          "sortKey": "b"
         },
         {
           "typeId": "it.vedph.categories",
           "name": "categories",
-          "description": "Item's categories.",
+          "description": "Categories.",
           "isRequired": true,
           "colorKey": "98F8F8",
-          "groupKey": "general",
-          "sortKey": "categories"
+          "groupKey": "classification",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.index-keywords",
+          "name": "index keywords",
+          "description": "Keywords grouped in indexes.",
+          "colorKey": "588BBF",
+          "groupKey": "classification",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.epigraphy.support",
+          "name": "support",
+          "description": "Epigraphic support.",
+          "colorKey": "31AB54",
+          "groupKey": "epigraphy",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.epigraphy.writing",
+          "name": "writing",
+          "description": "Epigraphic writing.",
+          "colorKey": "31AB54",
+          "groupKey": "epigraphy",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.geo.asserted-toponyms",
+          "name": "toponym",
+          "description": "Location toponym(s).",
+          "isRequired": true,
+          "colorKey": "806400",
+          "groupKey": "placement",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.geo.asserted-locations",
+          "name": "location",
+          "description": "Geographic location(s).",
+          "isRequired": true,
+          "colorKey": "006400",
+          "groupKey": "placement",
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.historical-date",
@@ -30,17 +80,8 @@
           "description": "Historical date.",
           "isRequired": false,
           "colorKey": "F898F8",
-          "groupKey": "general",
-          "sortKey": "date"
-        },
-        {
-          "typeId": "it.vedph.chronotopes",
-          "name": "chronotopes",
-          "description": "Date/time indications.",
-          "isRequired": false,
-          "colorKey": "F887C8",
-          "groupKey": "general",
-          "sortKey": "chronotopes"
+          "groupKey": "placement",
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.historical-events",
@@ -49,31 +90,7 @@
           "isRequired": false,
           "colorKey": "C898C8",
           "groupKey": "general",
-          "sortKey": "events"
-        },
-        {
-          "typeId": "it.vedph.keywords",
-          "name": "keywords",
-          "description": "Item's keywords.",
-          "colorKey": "99CCFF",
-          "groupKey": "general",
-          "sortKey": "keywords"
-        },
-        {
-          "typeId": "it.vedph.index-keywords",
-          "name": "index keywords",
-          "description": "Item's index keywords.",
-          "colorKey": "588BBF",
-          "groupKey": "general",
-          "sortKey": "keywords-x"
-        },
-        {
-          "typeId": "it.vedph.names",
-          "name": "names",
-          "description": "Proper name(s).",
-          "colorKey": "C0F0F8",
-          "groupKey": "general",
-          "sortKey": "names"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.note",
@@ -81,7 +98,7 @@
           "description": "A free text note.",
           "colorKey": "B0A0F8",
           "groupKey": "general",
-          "sortKey": "note"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.comment",
@@ -89,15 +106,7 @@
           "description": "Comment.",
           "colorKey": "B2E0AA",
           "groupKey": "general",
-          "sortKey": "comment"
-        },
-        {
-          "typeId": "it.vedph.external-ids",
-          "name": "external IDs",
-          "description": "External identifiers.",
-          "colorKey": "BEE0CA",
-          "groupKey": "references",
-          "sortKey": "identifiers"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -105,7 +114,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "references"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -113,74 +122,16 @@
           "description": "Bibliography.",
           "colorKey": "20B2AA",
           "groupKey": "references",
-          "sortKey": "bibliography"
-        },
-        {
-          "typeId": "it.vedph.pin-links",
-          "name": "links",
-          "description": "Pin-based links.",
-          "colorKey": "A0C0F8",
-          "groupKey": "general",
-          "sortKey": "links"
-        },
-        {
-          "typeId": "it.vedph.epigraphy.support",
-          "name": "support",
-          "description": "Epigraphic support.",
-          "colorKey": "31AB54",
-          "groupKey": "inscriptions",
-          "sortKey": "epi-support"
-        },
-        {
-          "typeId": "it.vedph.epigraphy.writing",
-          "name": "writing",
-          "description": "Epigraphic writing.",
-          "colorKey": "31AB54",
-          "groupKey": "inscriptions",
-          "sortKey": "epi-writing"
-        },
-        {
-          "typeId": "it.vedph.geo.asserted-locations",
-          "name": "locations",
-          "description": "Locations.",
-          "colorKey": "31AB54",
-          "groupKey": "geography",
-          "sortKey": "locations"
-        },
-        {
-          "typeId": "it.vedph.geo.asserted-toponyms",
-          "name": "toponyms",
-          "description": "Toponyms.",
-          "colorKey": "31AB54",
-          "groupKey": "geography",
-          "sortKey": "toponyms"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text",
           "roleId": "base-text",
           "name": "text",
-          "description": "Item's token-based text.",
+          "description": "Token-based text.",
           "colorKey": "31AB54",
           "groupKey": "text",
-          "sortKey": "text"
-        },
-        {
-          "typeId": "it.vedph.token-text-layer",
-          "roleId": "fr.it.vedph.comment",
-          "name": "comments",
-          "description": "Comments on text.",
-          "colorKey": "F8D040",
-          "groupKey": "text",
-          "sortKey": "text-comments"
-        },
-        {
-          "typeId": "it.vedph.token-text-layer",
-          "roleId": "fr.it.vedph.chronology",
-          "name": "chronology",
-          "description": "Chronological indication.",
-          "colorKey": "DDA0DD",
-          "groupKey": "text",
-          "sortKey": "text-chronology"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -189,7 +140,7 @@
           "description": "Critical apparatus.",
           "colorKey": "D4E0A4",
           "groupKey": "text",
-          "sortKey": "text-apparatus"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -198,7 +149,34 @@
           "description": "Standard orthography.",
           "colorKey": "E0D4A4",
           "groupKey": "text",
-          "sortKey": "text-apparatus"
+          "sortKey": "q"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.epigraphy.ligatures",
+          "name": "ligatures",
+          "description": "Ligatures.",
+          "colorKey": "E0C404",
+          "groupKey": "text",
+          "sortKey": "r"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.comment",
+          "name": "comments",
+          "description": "Comments on text.",
+          "colorKey": "F8D040",
+          "groupKey": "text",
+          "sortKey": "s"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.chronology",
+          "name": "chronology",
+          "description": "Chronological indications in text.",
+          "colorKey": "DDA0DD",
+          "groupKey": "text",
+          "sortKey": "t"
         }
       ]
     }
@@ -240,6 +218,10 @@
       "id": "model-types@en",
       "entries": [
         {
+          "id": "it.vedph.external-ids",
+          "value": "external IDs"
+        },
+        {
           "id": "it.vedph.metadata",
           "value": "metadata"
         },
@@ -248,40 +230,36 @@
           "value": "categories"
         },
         {
-          "id": "it.vedph.external-ids",
-          "value": "external IDs"
+          "id": "it.vedph.index-keywords",
+          "value": "index keywords"
+        },
+        {
+          "id": "it.vedph.epigraphy.support",
+          "value": "epi support"
+        },
+        {
+          "id": "it.vedph.epigraphy.writing",
+          "value": "epi writing"
+        },
+        {
+          "id": "it.vedph.geo.asserted-toponyms",
+          "value": "toponyms"
+        },
+        {
+          "id": "it.vedph.geo.asserted-locations",
+          "value": "locations"
         },
         {
           "id": "it.vedph.historical-date",
           "value": "date"
         },
         {
-          "id": "it.vedph.chronotopes",
-          "value": "chronotopes"
-        },
-        {
           "id": "it.vedph.historical-events",
           "value": "events"
         },
         {
-          "id": "it.vedph.keywords",
-          "value": "keywords"
-        },
-        {
-          "id": "it.vedph.index-keywords",
-          "value": "index keywords"
-        },
-        {
-          "id": "it.vedph.names",
-          "value": "names"
-        },
-        {
           "id": "it.vedph.note",
           "value": "note"
-        },
-        {
-          "id": "it.vedph.pin-links",
-          "value": "links"
         },
         {
           "id": "it.vedph.comment",
@@ -296,22 +274,6 @@
           "value": "bibliography"
         },
         {
-          "id": "it.vedph.epigraphy.support",
-          "value": "epi support"
-        },
-        {
-          "id": "it.vedph.epigraphy.writing",
-          "value": "epi writing"
-        },
-        {
-          "id": "it.vedph.geo.asserted-locations",
-          "value": "locations"
-        },
-        {
-          "id": "it.vedph.geo.asserted-toponyms",
-          "value": "toponyms"
-        },
-        {
           "id": "it.vedph.token-text",
           "value": "text"
         },
@@ -324,16 +286,20 @@
           "value": "apparatus fr."
         },
         {
-          "id": "fr.it.vedph.chronology",
-          "value": "chronology fr."
+          "id": "fr.it.vedph.orthography",
+          "value": "orthography fr."
+        },
+        {
+          "id": "fr.it.vedph.epigraphy.ligatures",
+          "value": "ligatures fr."
         },
         {
           "id": "fr.it.vedph.comment",
           "value": "comment fr."
         },
         {
-          "id": "fr.it.vedph.orthography",
-          "value": "orthography fr."
+          "id": "fr.it.vedph.chronology",
+          "value": "chronology fr."
         }
       ]
     },
@@ -1956,6 +1922,72 @@
         {
           "id": "manuscript.restore.restorer",
           "value": "restauratore"
+        }
+      ]
+    },
+    {
+      "id": "geo-name-languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "geo-name-piece-types@en",
+      "entries": [
+        {
+          "id": "cnt*",
+          "value": "continent"
+        },
+        {
+          "id": "cnt.europe",
+          "value": "Europe"
+        },
+        {
+          "id": "cnt.amr-n",
+          "value": "North America"
+        },
+        {
+          "id": "cnt.amr-s",
+          "value": "South America"
+        },
+        {
+          "id": "cnt.afr",
+          "value": "Africa"
+        },
+        {
+          "id": "cnt.asi",
+          "value": "Asia"
+        },
+        {
+          "id": "cnt.aus",
+          "value": "Australia"
+        },
+        {
+          "id": "cnt.ant",
+          "value": "Antarctica"
+        },
+        {
+          "id": "country*",
+          "value": "country"
+        },
+        {
+          "id": "region*",
+          "value": "region"
+        },
+        {
+          "id": "_order",
+          "value": "cnt country region"
         }
       ]
     },
