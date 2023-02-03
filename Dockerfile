@@ -7,21 +7,21 @@ EXPOSE 443
 # Stage 2: build
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["Cadmus__PRJ__Api/Cadmus__PRJ__Api.csproj", "Cadmus__PRJ__Api/"]
+COPY ["CadmusEpigraphyApi/CadmusEpigraphyApi.csproj", "CadmusEpigraphyApi/"]
 # copy local packages to avoid using a NuGet custom feed, then restore
 # COPY ./local-packages /src/local-packages
-RUN dotnet restore "Cadmus__PRJ__Api/Cadmus__PRJ__Api.csproj" -s https://api.nuget.org/v3/index.json --verbosity n
+RUN dotnet restore "CadmusEpigraphyApi/CadmusEpigraphyApi.csproj" -s https://api.nuget.org/v3/index.json --verbosity n
 # copy the content of the API project
 COPY . .
 # build it
-RUN dotnet build "Cadmus__PRJ__Api/Cadmus__PRJ__Api.csproj" -c Release -o /app/build
+RUN dotnet build "CadmusEpigraphyApi/CadmusEpigraphyApi.csproj" -c Release -o /app/build
 
 # Stage 3: publish
 FROM build AS publish
-RUN dotnet publish "Cadmus__PRJ__Api/Cadmus__PRJ__Api.csproj" -c Release -o /app/publish
+RUN dotnet publish "CadmusEpigraphyApi/CadmusEpigraphyApi.csproj" -c Release -o /app/publish
 
 # Stage 4: final
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Cadmus__PRJ__Api.dll"]
+ENTRYPOINT ["dotnet", "CadmusEpigraphyApi.dll"]
