@@ -44,6 +44,7 @@
           "typeId": "it.vedph.epigraphy.support",
           "name": "support",
           "description": "Epigraphic support.",
+          "isRequired": true,
           "colorKey": "31AB54",
           "groupKey": "epigraphy",
           "sortKey": "e"
@@ -52,6 +53,7 @@
           "typeId": "it.vedph.epigraphy.writing",
           "name": "writing",
           "description": "Epigraphic writing.",
+          "isRequired": true,
           "colorKey": "31AB54",
           "groupKey": "epigraphy",
           "sortKey": "f"
