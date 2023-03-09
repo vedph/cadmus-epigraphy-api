@@ -10,6 +10,7 @@ Quick Docker image build:
 
 ## History
 
+- 2023-03-09: updated packages.
 - 2023-02-11: updated thesauri.
 
 ### 1.0.0
