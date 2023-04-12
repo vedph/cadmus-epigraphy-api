@@ -376,7 +376,7 @@ namespace CadmusEpigraphyApi
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                string url = Configuration.GetValue<string>("Swagger:Endpoint");
+                string? url = Configuration.GetValue<string>("Swagger:Endpoint");
                 if (string.IsNullOrEmpty(url)) url = "v1/swagger.json";
                 options.SwaggerEndpoint(url, "V1 Docs");
             });
