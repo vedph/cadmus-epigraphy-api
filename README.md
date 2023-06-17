@@ -4,12 +4,15 @@ This API provides the development environment for Cadmus epigraphic components.
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-epigraphy-api:1.0.1 -t vedph2020/cadmus-epigraphy-api:latest
+    docker build . -t vedph2020/cadmus-epigraphy-api:3.0.0 -t vedph2020/cadmus-epigraphy-api:latest
 
 (replace with the current version).
 
 ## History
 
+### 3.0.0
+
+- 2023-06-17: moved to PostgreSQL.
 - 2023-06-02: updated packages.
 
 ### 2.0.0
