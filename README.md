@@ -10,6 +10,8 @@ This API provides the development environment for Cadmus epigraphic components.
 
 ## History
 
+- 2023-11-07: updated packages.
+
 ### 3.0.0
 
 - 2023-06-17: moved to PostgreSQL.
