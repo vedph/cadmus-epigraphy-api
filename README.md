@@ -10,6 +10,8 @@ This API provides the development environment for Cadmus epigraphic components.
 
 ## History
 
+- 2023-11-21: updated packages.
+
 ### 4.0.0
 
 - 2023-11-18: ⚠️ Upgraded to .NET 8.
