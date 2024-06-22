@@ -50,13 +50,29 @@
           "sortKey": "e"
         },
         {
+          "typeId": "it.vedph.epigraphy.support-frr",
+          "name": "fragments",
+          "description": "Epigraphic support fragments.",
+          "colorKey": "82AE31",
+          "groupKey": "epigraphy",
+          "sortKey": "f"
+        },
+        {
           "typeId": "it.vedph.epigraphy.writing",
           "name": "writing",
           "description": "Epigraphic writing.",
           "isRequired": true,
           "colorKey": "31AB54",
           "groupKey": "epigraphy",
-          "sortKey": "f"
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.epigraphy.signs",
+          "name": "writing",
+          "description": "Writing signs.",
+          "colorKey": "31A8AE",
+          "groupKey": "epigraphy",
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.geo.asserted-toponyms",
@@ -65,7 +81,7 @@
           "isRequired": true,
           "colorKey": "806400",
           "groupKey": "placement",
-          "sortKey": "g"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.geo.asserted-locations",
@@ -74,7 +90,7 @@
           "isRequired": true,
           "colorKey": "006400",
           "groupKey": "placement",
-          "sortKey": "h"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.historical-date",
@@ -83,7 +99,7 @@
           "isRequired": false,
           "colorKey": "F898F8",
           "groupKey": "placement",
-          "sortKey": "i"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.historical-events",
@@ -92,7 +108,7 @@
           "isRequired": false,
           "colorKey": "C898C8",
           "groupKey": "general",
-          "sortKey": "j"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.note",
@@ -100,7 +116,7 @@
           "description": "A free text note.",
           "colorKey": "B0A0F8",
           "groupKey": "general",
-          "sortKey": "k"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.comment",
@@ -108,7 +124,7 @@
           "description": "Comment.",
           "colorKey": "B2E0AA",
           "groupKey": "general",
-          "sortKey": "l"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -116,7 +132,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "m"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -124,7 +140,7 @@
           "description": "Bibliography.",
           "colorKey": "20B2AA",
           "groupKey": "references",
-          "sortKey": "n"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -133,7 +149,7 @@
           "description": "Token-based text.",
           "colorKey": "31AB54",
           "groupKey": "text",
-          "sortKey": "o"
+          "sortKey": "q"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -142,7 +158,7 @@
           "description": "Critical apparatus.",
           "colorKey": "D4E0A4",
           "groupKey": "text",
-          "sortKey": "p"
+          "sortKey": "r"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -151,7 +167,7 @@
           "description": "Standard orthography.",
           "colorKey": "E0D4A4",
           "groupKey": "text",
-          "sortKey": "q"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -160,7 +176,7 @@
           "description": "Ligatures.",
           "colorKey": "E0C404",
           "groupKey": "text",
-          "sortKey": "r"
+          "sortKey": "t"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -169,7 +185,7 @@
           "description": "Comments on text.",
           "colorKey": "F8D040",
           "groupKey": "text",
-          "sortKey": "s"
+          "sortKey": "u"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -178,7 +194,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "DDA0DD",
           "groupKey": "text",
-          "sortKey": "t"
+          "sortKey": "v"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -187,7 +203,7 @@
           "description": "Pin-based links.",
           "colorKey": "A0C0F8",
           "groupKey": "text",
-          "sortKey": "u"
+          "sortKey": "w"
         }
       ]
     },
@@ -338,8 +354,16 @@
           "value": "epi formula"
         },
         {
+          "id": "it.vedph.epigraphy.signs",
+          "value": "epi signs"
+        },
+        {
           "id": "it.vedph.epigraphy.support",
           "value": "epi support"
+        },
+        {
+          "id": "it.vedph.epigraphy.support-frr",
+          "value": "epi fragments"
         },
         {
           "id": "it.vedph.epigraphy.writing",
@@ -2593,7 +2617,13 @@
         "id": "seed.it.vedph.epigraphy.formula-patterns"
       },
       {
+        "id": "seed.it.vedph.epigraphy.signs"
+      },
+      {
         "id": "seed.it.vedph.epigraphy.support"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.support-frr"
       },
       {
         "id": "seed.it.vedph.epigraphy.writing"
