@@ -922,6 +922,23 @@
       ]
     },
     {
+      "id": "epi-signs-features@en",
+      "entries": [
+        {
+          "id": "a",
+          "value": "alpha"
+        },
+        {
+          "id": "b",
+          "value": "beta"
+        },
+        {
+          "id": "g",
+          "value": "gamma"
+        }
+      ]
+    },
+    {
       "id": "epi-support-functions@en",
       "entries": [
         {
