@@ -68,7 +68,7 @@
         },
         {
           "typeId": "it.vedph.epigraphy.signs",
-          "name": "writing",
+          "name": "signs",
           "description": "Writing signs.",
           "colorKey": "31A8AE",
           "groupKey": "epigraphy",
