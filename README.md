@@ -10,6 +10,7 @@ This API provides the development environment for Cadmus epigraphic components.
 
 ## History
 
+- 2024-07-14: updated packages.
 - 2024-06-22:
   - updated packages.
   - added to configuration epigraphic parts for support fragments and writing signs.
