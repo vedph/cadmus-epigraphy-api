@@ -75,13 +75,21 @@
           "sortKey": "h"
         },
         {
+          "typeId": "it.vedph.epigraphy.technique",
+          "name": "technique",
+          "description": "Techniques and tools.",
+          "colorKey": "50E8A0",
+          "groupKey": "epigraphy",
+          "sortKey": "i"
+        },
+        {
           "typeId": "it.vedph.geo.asserted-toponyms",
           "name": "toponym",
           "description": "Location toponym(s).",
           "isRequired": true,
           "colorKey": "806400",
           "groupKey": "placement",
-          "sortKey": "i"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.geo.asserted-locations",
@@ -90,7 +98,7 @@
           "isRequired": true,
           "colorKey": "006400",
           "groupKey": "placement",
-          "sortKey": "j"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.historical-date",
@@ -99,7 +107,7 @@
           "isRequired": false,
           "colorKey": "F898F8",
           "groupKey": "placement",
-          "sortKey": "k"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.historical-events",
@@ -108,7 +116,7 @@
           "isRequired": false,
           "colorKey": "C898C8",
           "groupKey": "general",
-          "sortKey": "l"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.note",
@@ -116,7 +124,7 @@
           "description": "A free text note.",
           "colorKey": "B0A0F8",
           "groupKey": "general",
-          "sortKey": "m"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.comment",
@@ -124,7 +132,7 @@
           "description": "Comment.",
           "colorKey": "B2E0AA",
           "groupKey": "general",
-          "sortKey": "n"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -132,7 +140,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "o"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -140,7 +148,7 @@
           "description": "Bibliography.",
           "colorKey": "20B2AA",
           "groupKey": "references",
-          "sortKey": "p"
+          "sortKey": "q"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -149,7 +157,7 @@
           "description": "Token-based text.",
           "colorKey": "31AB54",
           "groupKey": "text",
-          "sortKey": "q"
+          "sortKey": "r"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -158,7 +166,7 @@
           "description": "Critical apparatus.",
           "colorKey": "D4E0A4",
           "groupKey": "text",
-          "sortKey": "r"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -167,7 +175,7 @@
           "description": "Standard orthography.",
           "colorKey": "E0D4A4",
           "groupKey": "text",
-          "sortKey": "s"
+          "sortKey": "t"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -176,7 +184,7 @@
           "description": "Ligatures.",
           "colorKey": "E0C404",
           "groupKey": "text",
-          "sortKey": "t"
+          "sortKey": "u"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -185,7 +193,7 @@
           "description": "Comments on text.",
           "colorKey": "F8D040",
           "groupKey": "text",
-          "sortKey": "u"
+          "sortKey": "v"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -194,7 +202,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "DDA0DD",
           "groupKey": "text",
-          "sortKey": "v"
+          "sortKey": "w"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -203,7 +211,7 @@
           "description": "Pin-based links.",
           "colorKey": "A0C0F8",
           "groupKey": "text",
-          "sortKey": "w"
+          "sortKey": "x"
         }
       ]
     },
@@ -364,6 +372,10 @@
         {
           "id": "it.vedph.epigraphy.support-frr",
           "value": "epi fragments"
+        },
+        {
+          "id": "it.vedph.epigraphy.technique",
+          "value": "epi techniques"
         },
         {
           "id": "it.vedph.epigraphy.writing",
@@ -1104,6 +1116,78 @@
       ]
     },
     {
+      "id": "epi-technique-tools@en",
+      "entries": [
+        {
+          "id": "chisel",
+          "value": "chisel"
+        },
+        {
+          "id": "ink",
+          "value": "ink"
+        },
+        {
+          "id": "saw",
+          "value": "saw"
+        }
+      ]
+    },
+    {
+      "id": "epi-technique-types@en",
+      "entries": [
+        {
+          "id": "drawing",
+          "value": "drawing"
+        },
+        {
+          "id": "incision",
+          "value": "incision"
+        },
+        {
+          "id": "engraving",
+          "value": "engraving"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-casings@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "-"
+        },
+        {
+          "id": "upper",
+          "value": "uppercase"
+        },
+        {
+          "id": "lower",
+          "value": "lowercase"
+        },
+        {
+          "id": "lower-upper",
+          "value": "lowercase/uppercase"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-features@en",
+      "entries": [
+        {
+          "id": "abbr",
+          "value": "abbreviations"
+        },
+        {
+          "id": "punct",
+          "value": "punctuation"
+        },
+        {
+          "id": "enclosed",
+          "value": "enclosed letters"
+        }
+      ]
+    },
+    {
       "id": "epi-writing-frame-types@en",
       "entries": [
         {
@@ -1334,6 +1418,19 @@
         {
           "id": "lat",
           "value": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-scripts@en",
+      "entries": [
+        {
+          "id": "gothic",
+          "value": "Gothic"
+        },
+        {
+          "id": "merchant",
+          "value": "merchant"
         }
       ]
     },
@@ -2641,6 +2738,9 @@
       },
       {
         "id": "seed.it.vedph.epigraphy.support-frr"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.technique"
       },
       {
         "id": "seed.it.vedph.epigraphy.writing"
