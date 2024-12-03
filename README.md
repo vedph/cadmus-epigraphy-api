@@ -10,6 +10,7 @@ This API provides the development environment for Cadmus epigraphic components.
 
 ## History
 
+- 2024-12-03: updated packages.
 - 2024-11-30: updated packages.
 - 2024-11-22: updated API packages.
 - 2024-11-20: updated packages.
