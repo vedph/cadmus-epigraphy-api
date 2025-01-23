@@ -2,14 +2,21 @@
 
 This API provides the development environment for Cadmus epigraphic components.
 
-🐋 Quick Docker image build:
+🐋 Quick Docker image build (you need to have a `buildx` container):
 
-    docker build . -t vedph2020/cadmus-epigraphy-api:3.0.0 -t vedph2020/cadmus-epigraphy-api:latest
+```bash
+docker buildx create --use
+
+docker buildx build . --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-epigraphy-api:3.0.0 -t vedph2020/cadmus-epigraphy-api:latest --push
+```
 
 (replace with the current version).
 
 ## History
 
+- 2025-01-23:
+	- updated packages.
+	- Dockerfile: added `--platform` for `docker buildx build`.
 - 2025-01-01: updated packages.
 - 2024-12-23: updated packages.
 - 2024-12-03: updated packages.
