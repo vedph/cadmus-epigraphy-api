@@ -14,6 +14,7 @@ docker buildx build . --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-epi
 
 ## History
 
+- 2025-01-28: updated packages.
 - 2025-01-23:
 	- updated packages.
 	- Dockerfile: added `--platform` for `docker buildx build`.
