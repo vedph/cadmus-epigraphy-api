@@ -951,6 +951,36 @@
       ]
     },
     {
+      "id": "epi-support-count-types@en",
+      "entries": [
+        {
+          "id": "rows",
+          "value": "rows"
+        },
+        {
+          "id": "cols",
+          "value": "columns"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-features@en",
+      "entries": [
+        {
+          "id": "in-situ",
+          "value": "in situ"
+        },
+        {
+          "id": "indoor",
+          "value": "indoor"
+        },
+        {
+          "id": "damnatio",
+          "value": "damnatio"
+        }
+      ]
+    },
+    {
       "id": "epi-support-functions@en",
       "entries": [
         {
@@ -1091,6 +1121,86 @@
         {
           "id": "fr",
           "value": "fragmentary"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-text-area-features@en",
+      "entries": [
+        {
+          "id": "a",
+          "value": "alpha"
+        },
+        {
+          "id": "b",
+          "value": "beta"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-text-area-frame-types@en",
+      "entries": [
+        {
+          "id": "square",
+          "value": "square"
+        },
+        {
+          "id": "rectangle",
+          "value": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "pi-support-text-area-layouts@en",
+      "entries": [
+        {
+          "id": "full-page",
+          "value": "full page"
+        },
+        {
+          "id": "columns",
+          "value": "columns"
+        },
+        {
+          "id": "sparse",
+          "value": "sparse lines"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-text-area-types@en",
+      "entries": [
+        {
+          "id": "np",
+          "value": "campo"
+        },
+        {
+          "id": "np-open",
+          "value": "campo aperto"
+        },
+        {
+          "id": "np-overflow",
+          "value": "campo di ripiego"
+        },
+        {
+          "id": "np-natural",
+          "value": "campo rupestre"
+        },
+        {
+          "id": "p",
+          "value": "specchio"
+        },
+        {
+          "id": "p-supplement",
+          "value": "specchio di corredo"
+        },
+        {
+          "id": "p-added",
+          "value": "specchio aggiunto"
+        },
+        {
+          "id": "p-natural",
+          "value": "specchio rupestre"
         }
       ]
     },
