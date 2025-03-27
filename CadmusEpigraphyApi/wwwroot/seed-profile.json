@@ -1226,6 +1226,19 @@
       ]
     },
     {
+      "id": "epi-technique-groove-types@en",
+      "entries": [
+        {
+          "id": "v-shaped",
+          "value": "V-shaped"
+        },
+        {
+          "id": "u-shaped",
+          "value": "U-shaped"
+        }
+      ]
+    },
+    {
       "id": "epi-technique-tools@en",
       "entries": [
         {
