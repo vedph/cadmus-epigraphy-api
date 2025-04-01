@@ -58,9 +58,9 @@
           "sortKey": "f"
         },
         {
-          "typeId": "it.vedph.epigraphy.writing",
-          "name": "writing",
-          "description": "Epigraphic writing.",
+          "typeId": "it.vedph.epigraphy.scripts",
+          "name": "scripts",
+          "description": "Epigraphic scripts.",
           "isRequired": true,
           "colorKey": "31AB54",
           "groupKey": "epigraphy",
@@ -378,8 +378,8 @@
           "value": "epi techniques"
         },
         {
-          "id": "it.vedph.epigraphy.writing",
-          "value": "epi writing"
+          "id": "it.vedph.epigraphy.scripts",
+          "value": "epi scripts"
         },
         {
           "id": "it.vedph.geo.asserted-toponyms",
@@ -1273,7 +1273,7 @@
       ]
     },
     {
-      "id": "epi-writing-casings@en",
+      "id": "epi-script-casings@en",
       "entries": [
         {
           "id": "-",
@@ -1294,7 +1294,7 @@
       ]
     },
     {
-      "id": "epi-writing-features@en",
+      "id": "epi-script-features@en",
       "entries": [
         {
           "id": "abbr",
@@ -1307,223 +1307,6 @@
         {
           "id": "enclosed",
           "value": "enclosed letters"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-frame-types@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "square",
-          "value": "square"
-        },
-        {
-          "id": "rect",
-          "value": "rectangular"
-        },
-        {
-          "id": "oval",
-          "value": "oval"
-        },
-        {
-          "id": "round",
-          "value": "round"
-        },
-        {
-          "id": "heart",
-          "value": "heart"
-        },
-        {
-          "id": "cross",
-          "value": "cross"
-        },
-        {
-          "id": "flag",
-          "value": "flag"
-        },
-        {
-          "id": "cartouche",
-          "value": "cartouche"
-        },
-        {
-          "id": "signboard",
-          "value": "signboard"
-        },
-        {
-          "id": "cloud",
-          "value": "cloud"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-fig-features@en",
-      "entries": [
-        {
-          "id": "a",
-          "value": "alpha"
-        },
-        {
-          "id": "b",
-          "value": "beta"
-        },
-        {
-          "id": "g",
-          "value": "gamma"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-fig-types@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "ani",
-          "value": "animal"
-        },
-        {
-          "id": "ani.-",
-          "value": "animal"
-        },
-        {
-          "id": "obj",
-          "value": "object"
-        },
-        {
-          "id": "obj.-",
-          "value": "object"
-        },
-        {
-          "id": "obj.flag",
-          "value": "object: flag"
-        },
-        {
-          "id": "obj.coat",
-          "value": "object: coat of arms"
-        },
-        {
-          "id": "obj.armor",
-          "value": "object: armor"
-        },
-        {
-          "id": "obj.weapon",
-          "value": "object: weapon"
-        },
-        {
-          "id": "obj.tool",
-          "value": "object: tool"
-        },
-        {
-          "id": "game",
-          "value": "game"
-        },
-        {
-          "id": "plant",
-          "value": "plant"
-        },
-        {
-          "id": "boat",
-          "value": "boat"
-        },
-        {
-          "id": "geometric",
-          "value": "geometric"
-        },
-        {
-          "id": "landscape",
-          "value": "landscape"
-        },
-        {
-          "id": "architecture",
-          "value": "architectures"
-        },
-        {
-          "id": "sym",
-          "value": "symbol"
-        },
-        {
-          "id": "sym.-",
-          "value": "symbol: heart"
-        },
-        {
-          "id": "sym.cross",
-          "value": "symbol: cross"
-        },
-        {
-          "id": "hum",
-          "value": "human"
-        },
-        {
-          "id": "hum.-",
-          "value": "human figure"
-        },
-        {
-          "id": "hum.bust",
-          "value": "human: bust"
-        },
-        {
-          "id": "hum.face",
-          "value": "human: face"
-        },
-        {
-          "id": "hum.anatomical",
-          "value": "human: anatomical parts"
-        },
-        {
-          "id": "erotic",
-          "value": "erotic"
-        },
-        {
-          "id": "arrow",
-          "value": "arrow"
-        },
-        {
-          "id": "signboard",
-          "value": "signboard"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-metres@en",
-      "entries": [
-        {
-          "id": "hex",
-          "value": "hexameter"
-        },
-        {
-          "id": "3ia",
-          "value": "iambic trimeter"
-        },
-        {
-          "id": "eleg",
-          "value": "elegiac"
-        },
-        {
-          "id": "-",
-          "value": "---"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-script-features@en",
-      "entries": [
-        {
-          "id": "upper",
-          "value": "uppercase"
-        },
-        {
-          "id": "lower",
-          "value": "lowercase"
-        },
-        {
-          "id": "abbr",
-          "value": "abbreviation"
         },
         {
           "id": "ligatures",
@@ -1532,20 +1315,7 @@
       ]
     },
     {
-      "id": "epi-writing-languages@en",
-      "entries": [
-        {
-          "id": "grc",
-          "value": "Greek"
-        },
-        {
-          "id": "lat",
-          "value": "Latin"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-scripts@en",
+      "id": "epi-scripts@en",
       "entries": [
         {
           "id": "gothic",
@@ -1558,7 +1328,7 @@
       ]
     },
     {
-      "id": "epi-writing-systems@en",
+      "id": "epi-script-systems@en",
       "entries": [
         {
           "id": "-",
@@ -1608,68 +1378,6 @@
         {
           "id": "paint",
           "value": "paint"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-tools@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "charcoal",
-          "value": "charcoal"
-        },
-        {
-          "id": "nail",
-          "value": "nail"
-        },
-        {
-          "id": "gradine",
-          "value": "gradine"
-        },
-        {
-          "id": "blade",
-          "value": "blade"
-        },
-        {
-          "id": "marker",
-          "value": "marker"
-        },
-        {
-          "id": "pen",
-          "value": "pen"
-        },
-        {
-          "id": "brush",
-          "value": "brush"
-        },
-        {
-          "id": "stencil",
-          "value": "stencil"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-types@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "upper",
-          "value": "uppercase"
-        },
-        {
-          "id": "lower",
-          "value": "lowercase"
-        },
-        {
-          "id": "italic",
-          "value": "italic"
         }
       ]
     },
@@ -2866,7 +2574,7 @@
         "id": "seed.it.vedph.epigraphy.technique"
       },
       {
-        "id": "seed.it.vedph.epigraphy.writing"
+        "id": "seed.it.vedph.epigraphy.scripts"
       },
       {
         "id": "seed.it.vedph.geo.asserted-locations"
