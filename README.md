@@ -14,6 +14,11 @@ docker buildx build . --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-epi
 
 ## History
 
+### 7.0.0
+
+- 2025-05-05:
+  - ⚠️ updated packages with modified support model.
+
 ### 6.0.0
 
 - 2025-04-01:
