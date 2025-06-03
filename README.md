@@ -7,12 +7,14 @@ This API provides the development environment for Cadmus epigraphic components.
 ```bash
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-epigraphy-api:3.0.0 -t vedph2020/cadmus-epigraphy-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/arm64 -t vedph2020/cadmus-epigraphy-api:3.0.0 -t vedph2020/cadmus-epigraphy-api:latest --push
 ```
 
 (replace with the current version).
 
 ## History
+
+- 2025-06-03: updated packages.
 
 ### 7.0.0
 
