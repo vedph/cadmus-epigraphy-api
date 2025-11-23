@@ -12,12 +12,13 @@
 	<ItemGroup>
 		<PackageReference Include="Cadmus.Api.Config" Version="11.0.0" />
 		<PackageReference Include="Cadmus.Api.Controllers" Version="13.0.0" />
+		<PackageReference Include="Cadmus.Api.Controllers.Export" Version="1.0.0" />
 		<PackageReference Include="Cadmus.Api.Models" Version="11.0.0" />
 		<PackageReference Include="Cadmus.Api.Services" Version="13.0.0" />
 		<PackageReference Include="Cadmus.Graph.Extras" Version="10.0.0" />
 		<PackageReference Include="Cadmus.Seed.Epigraphy.Parts" Version="9.0.0" />
 		<PackageReference Include="Cadmus.Seed.General.Parts" Version="8.0.0" />
-		<PackageReference Include="Cadmus.Seed.Geo.Parts" Version="4.0.6" />
+		<PackageReference Include="Cadmus.Seed.Geo.Parts" Version="5.0.0" />
 		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="12.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.0" />
